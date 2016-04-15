@@ -7,3 +7,13 @@ ALERT-NuclGPDs.pdf
 ALERT-TagDVCS.pdf
 ALERT-TagEMC.pdf
 texput.log
+*.log
+*.aux
+*.spl
+*.bbl
+*.blg
+*.dpth
+*.toc
+*.auxlock
+*.out
+*.brf
