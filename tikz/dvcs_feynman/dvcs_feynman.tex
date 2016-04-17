@@ -5,9 +5,11 @@
 \usetikzlibrary{external}
 \usetikzlibrary{decorations.pathmorphing}
 \usetikzlibrary{decorations.markings}
+\usetikzlibrary{shapes.arrows}
 \usetikzlibrary{arrows}
-    \usetikzlibrary{shapes.arrows}
+
 \usetikzlibrary{positioning,fit,calc}
+\usetikzlibrary{arrows.meta}
 \usetikzlibrary{calc,fadings,decorations.pathreplacing}
 %\usetikzlibrary{arrows.spaced}
 \usetikzlibrary{decorations.pathmorphing}
@@ -84,8 +86,12 @@
             (n04) --  (n14)  --  (n24),
             (n05) --  (n15)  --  (n25),
             %(n06) --  (n16) ,
-            (n0) -- [fermion] (n1) --  (n2) -- [fermion, edge label = 
-            \(p_{A-1}\)](n3),
+            (n0) -- [plain,arrow size=6pt, postaction={decorate}, 
+            decoration={markings, mark=at position 0.75 with 
+         {\arrow[scale=4]{angle 90}}}] (n1) --
+         [plain,arrow size=6pt, postaction={decorate}, decoration={markings, 
+         mark=at position 0.75 with {\arrow[scale=4]{angle 90}}}] (n2) -- 
+         [fermion, edge label = \(p_{A-1}\)] (n3),
          };
 
          % alert detection
