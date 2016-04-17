@@ -109,6 +109,153 @@
 \end{center}
 
 \begin{center}
+   \begin{tikzpicture}
+      \begin{feynman}
+         \vertex (p1) at (0,0) {N};
+         \vertex[above right=1cm and 2.0cm of p1] (a2) { };
+         \vertex[below right=1cm and 2.0cm of a2] (p2) {N\(^{\prime}\)};
+
+         \vertex[above left =0.00cm and 1.00cm of a2] (a20);
+         \vertex[above left =0.00cm and 0.75cm of a2] (a21);
+         \vertex[above left =0.25cm and 0.50cm of a2] (a22);
+         \vertex[above left =0.25cm and 0.25cm of a2] (a23);
+         \vertex[above right=0.25cm and 0.25cm of a2] (a24);
+         \vertex[above right=0.25cm and 0.50cm of a2] (a25);
+         \vertex[above right=0.00cm and 0.75cm of a2] (a26);
+         \vertex[above right=0.00cm and 1.00cm of a2] (a27);
+
+         \vertex[above =1.5cm of a21] (q0);
+         \vertex[above =1.5cm of a26] (q1);
+
+         \vertex[above left =1cm and 1cm of q0] (e0){\(\gamma^{*} \)};
+         \vertex[above right=1cm and 1cm of q1] (e1){\(\gamma \)};
+
+         \draw[fill,black] (a2) ellipse (1cm and 0.5cm);
+         \diagram* {
+            (p1) -- [fermion] (a20),
+            (a27) -- [fermion] (p2),
+            (a21) -- [fermion] (q0) -- [fermion](q1) -- [fermion](a26),
+            (e0) -- [photon] (q0),
+            (e1) -- [photon] (q1),
+         };
+      \end{feynman}
+   \end{tikzpicture}
+\end{center}
+
+
+\begin{center}
+   \begin{tikzpicture}
+      \begin{feynman}
+         \vertex (p1) at (0,0) {N};
+         \vertex[above right=1cm and 2.0cm of p1] (a2) { };
+         \vertex[below right=1cm and 2.0cm of a2] (p2) {N\(^{\prime}\)};
+
+         \vertex[above left =0.00cm and 1.00cm of a2] (a20);
+         \vertex[above left =0.00cm and 0.75cm of a2] (a21);
+         \vertex[above left =0.25cm and 0.50cm of a2] (a22);
+         \vertex[above left =0.25cm and 0.25cm of a2] (a23);
+         \vertex[above right=0.25cm and 0.25cm of a2] (a24);
+         \vertex[above right=0.25cm and 0.50cm of a2] (a25);
+         \vertex[above right=0.00cm and 0.75cm of a2] (a26);
+         \vertex[above right=0.00cm and 1.00cm of a2] (a27);
+
+         \vertex[above =1.5cm of a21] (q0);
+         \vertex[above =1.5cm of a26] (q1);
+
+         \vertex[above left =1cm and 1cm of q0] (e0){\(\gamma^{*} \)};
+         \vertex[above right=1cm and 1cm of q1] (e1){\(\gamma \)};
+
+         \draw[fill,black] (a2) ellipse (1cm and 0.5cm);
+         \diagram* {
+            (p1) -- [fermion] (a20),
+            (a27) -- [fermion] (p2),
+            (a21) -- [fermion] (q0) -- [fermion](q1) -- [fermion](a26),
+            (e0) -- [photon] (q1),
+            (e1) -- [photon] (q0),
+         };
+      \end{feynman}
+   \end{tikzpicture}
+\end{center}
+
+\begin{center}
+   \begin{tikzpicture}
+      \begin{feynman}
+         \vertex (p1) at (0,0) {N};
+         \vertex[above right=1cm and 2.0cm of p1] (a2) { };
+         \vertex[below right=1cm and 2.0cm of a2] (p2) {N\(^{\prime}\)};
+
+         \vertex[above left =0.00cm and 1.00cm of a2] (a20);
+         \vertex[above left =0.00cm and 0.75cm of a2] (a21);
+         \vertex[above left =0.25cm and 0.50cm of a2] (a22);
+         \vertex[above left =0.25cm and 0.25cm of a2] (a23);
+         \vertex[above right=0.25cm and 0.25cm of a2] (a24);
+         \vertex[above right=0.25cm and 0.50cm of a2] (a25);
+         \vertex[above right=0.00cm and 0.75cm of a2] (a26);
+         \vertex[above right=0.00cm and 1.00cm of a2] (a27);
+
+         \vertex[above =1.5cm of a2] (q0);
+
+         \vertex[above left =0.5cm and 1cm of q0] (e01);
+         \vertex[above left =1.0cm and 2cm of q0] (e0){\(e\)};
+         \vertex[above right=1.0cm and 2cm of q0] (e1){\(e^{\prime}\)};
+         \vertex[above right=0.5cm and 1cm of q0] (e11);
+
+         \vertex[above right=0.5cm and 1.0cm of e01] (q1);
+
+         \draw[fill,black] (a2) ellipse (0.5cm and 0.5cm);
+
+         \diagram* {
+            (p1) -- [fermion] (a2),
+            (a2) -- [fermion] (p2),
+            (e0) -- [fermion] (e01) -- [plain] (q0) -- [plain] (e11) -- 
+            [fermion] (e1),
+            (q0) -- [photon] (a2),
+            (e01) -- [photon] (q1),
+         };
+      \end{feynman}
+   \end{tikzpicture}
+\end{center}
+
+\begin{center}
+   \begin{tikzpicture}
+      \begin{feynman}
+         \vertex (p1) at (0,0) {N};
+         \vertex[above right=1cm and 2.0cm of p1] (a2) { };
+         \vertex[below right=1cm and 2.0cm of a2] (p2) {N\(^{\prime}\)};
+
+         \vertex[above left =0.00cm and 1.00cm of a2] (a20);
+         \vertex[above left =0.00cm and 0.75cm of a2] (a21);
+         \vertex[above left =0.25cm and 0.50cm of a2] (a22);
+         \vertex[above left =0.25cm and 0.25cm of a2] (a23);
+         \vertex[above right=0.25cm and 0.25cm of a2] (a24);
+         \vertex[above right=0.25cm and 0.50cm of a2] (a25);
+         \vertex[above right=0.00cm and 0.75cm of a2] (a26);
+         \vertex[above right=0.00cm and 1.00cm of a2] (a27);
+
+         \vertex[above =1.5cm of a2] (q0);
+
+         \vertex[above left =0.5cm and 1cm of q0] (e01);
+         \vertex[above left =1.0cm and 2cm of q0] (e0){\(e\)};
+         \vertex[above right=1.0cm and 2cm of q0] (e1){\(e^{\prime}\)};
+         \vertex[above right=0.5cm and 1cm of q0] (e11);
+
+         \vertex[below right=0.5cm and 1.0cm of e11] (q1);
+
+         \draw[fill,black] (a2) ellipse (0.5cm and 0.5cm);
+
+         \diagram* {
+            (p1) -- [fermion] (a2),
+            (a2) -- [fermion] (p2),
+            (e0) -- [fermion] (e01) -- [plain] (q0) -- [plain] (e11) -- 
+            [fermion] (e1),
+            (q0) -- [photon] (a2),
+            (e11) -- [photon] (q1),
+         };
+      \end{feynman}
+   \end{tikzpicture}
+\end{center}
+
+\begin{center}
 \begin{tikzpicture}
   \begin{feynman}
     \vertex (a1) {\(\overline b\)};
