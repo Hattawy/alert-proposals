@@ -1,0 +1,376 @@
+
+\chapter{Physics Motivations}
+\label{chap:physics}
+
+\section{DVCS and DVMP Reactions}
+~~~~More information on the hadronic structure lies in the correlation between 
+the momentum and the spatial degrees of freedom of the constituent partons.  
+Such correlations are accessible via the GPDs. The GPDs contain information on 
+the correlation between longitudinal momenta and transverse positions of the 
+partons. Also they contain information on the quark-antiquark structure of the 
+target. The GPDs are accessible via hard exclusive reactions, like Deeply 
+Virtual Compton Scattering (DVCS) and Deeply Virtual Meson Production (DVMP).  
+The DVCS process is the exclusive electroproduction of a real photon from a 
+quark of the nucleon.
+
+The twist is defined as the dimension of an operator minus its spin. The 
+leading twist of DVCS is n~=~2, and higher twists are suppressed by a power of 
+$(M_{N}/Q)^{n-2}$ \cite{twist_def}. The DVCS reaction ($eH\rightarrow 
+e'H'\gamma$) at leading twist (twist-2) and at leading order in the strong 
+coupling constant of QCD ($\alpha _{s}$), is described by the handbag diagram 
+shown in figure \ref{fig:DVCS}. In the DVCS process, a highly virtual photon 
+($\gamma^{*}$), radiated by the incident electron ($e$), interacts with a quark 
+which emits a real photon ($\gamma$) before going back to the nucleon. The 
+final-state photon of the DVCS process is replaced by a final state meson in 
+the case of the DVMP reaction.
+
+\begin{figure}[t]
+\begin{minipage}[c]{.46\linewidth}
+\vspace{-0.2in}
+\centering
+\includegraphics[height=5.5cm]{fig_NuclGPD/DVCS2.png}
+\caption{Schematic of the leading-twist handbag diagram of DVCS on a hadron, at 
+the leading order in the coupling constant ($\alpha _{s}$).} \label{fig:DVCS}
+\end{minipage} \hfill
+\begin{minipage}[c]{.46\linewidth}
+\includegraphics[height=5.5cm]{fig_NuclGPD/DVMP.png}
+\caption{A schematic for the Handbag diagram of DVMP on a hadron at leading 
+twist order.}
+\label{fig:DVMP}
+\end{minipage}
+\end{figure}
+    
+  The hard reactions are characterized by the factorization property. With this 
+property, the handbag diagrams in figure \ref{fig:DVCS} can be factorized into 
+two parts, a hard and a soft part. The hard part is calculable by perturbative 
+methods, while the soft part is non-perturbative and is parametrized in terms 
+of the GPDs. This factorization has been proven for the DVCS amplitude by two 
+independent calculations: one by John Collins and Andreas Freund 
+\cite{Freund_Collins}, and one by Xiangdong Ji and Jonathan Osborne 
+\cite{Ji_Osborne}.
+
+The GPDs depend on three variables: $x$, $\xi$ and $t$.  $x+\xi$ is the 
+nucleon's longitudinal momentum fraction carried by the struck quark, 2$\xi$ is 
+the longitudinal momentum fraction of the momentum transfer $\Delta$ ($= p' - 
+p$), and $t$ (=$\Delta^{2}$) is the squared momentum transfer between the 
+initial and the final states of the nucleon. One can define a 
+GPD~($x$,$\xi$,$t$) as the probability amplitude of picking up a parton with a 
+longitudinal momentum $x+\xi$ and putting it back in the nucleon with a 
+longitudinal momentum $x-\xi$, without breaking the nucleon, at a squared 
+momentum transfer $t$. 
+
+In the infinite-momentum frame, where the initial and the final nucleons go at 
+the speed of light along the positive z-axis, the partons have relatively small 
+transverse momenta compared to their longitudinal momenta. Referring to figure 
+\ref{fig:DVCS}, the struck parton carries a longitudinal momentum fraction 
+$x+\xi$ and it goes back into the nucleon with a momentum fraction $x-\xi$. The 
+GPDs are defined in the interval where $x$ and $\xi$~$\in$ [-1,1], which can be 
+separated into three regions as can be seen in figure \ref{DGLAP}.  The regions 
+are:
+\begin{itemize}
+\item $x\in$ [$\xi$,1]: both momentum fractions $x+\xi$ and $x-\xi$ are 
+   positive and the process describes the emission and reabsorption of a quark.
+\item $x\in $ [-$\xi$,$\xi$]: $x+\xi$ is positive reflecting the emission of a 
+   quark, while $x-\xi$ is negative and is interpreted as an antiquark being 
+   emitted from the initial proton.
+\item $x\in$ [-1,-$\xi$]: both fractions are negative, and $x+\xi$ and $x-\xi$ 
+   represent the emission and reabsorption of antiquarks.
+   \end{itemize}
+
+The GPDs in the first and in the third regions represent the probability 
+amplitude of finding a quark or an antiquark in the nucleon, while in the 
+second region they represent the probability amplitude of finding a 
+quark-antiquark pair in the nucleon \cite{Diehl:2001pm}.\\
+  
+Following the definition of reference \cite{Ji:1998pc}, the differential DVCS 
+cross section is obtained from the DVCS scattering amplitude 
+($\mathcal{T}_{DVCS}$) as:
+\begin{equation}
+ \frac{d^{5}\sigma}{dQ^{2}\, dx_{B}\, dt\, d\phi\, d\phi_{e}} = 
+ \frac{1}{(2\pi^{4})32}\frac{x_{B}\, 
+ y^{2}}{Q^{4}}\bigg(1+\frac{4M^{2}x_{B}^{2}}{Q^{2}}\bigg)^{-1/2} 
+ |\mathcal{T}_{DVCS}|^{2},
+\label{DVCSCrossSection_tot}
+\end{equation}
+where $\phi_{e}$ is the azimuthal angle of the scattered lepton, 
+$y=\frac{E-E'}{E}$ and $Q^{2},x_{B}, t, \phi$ are the four kinematic variables 
+that describe the process. The variable $\phi$ is the angle between the 
+leptonic and the hadronic planes, as can be seen in figure \ref{fig:phi}.\\
+
+\begin{figure}[tb]
+\centering
+\includegraphics[scale=0.37]{fig_NuclGPD/DGLAP.png}
+\caption{The parton interpretations of the GPDs in three $x$-intervals 
+[-1,-$\xi$], [-$\xi$,$\xi$] and [$\xi$,1]. The red arrows indicate the initial 
+and the final-state of the proton, while the blue (black) arrows represent 
+helicity (momentum) of the struck quark.} \label{DGLAP}
+\end{figure}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[scale=0.30]{fig_NuclGPD/plane.png}
+\caption{The definition of the azimuthal angle $\phi$ between the leptonic and 
+the hadronic planes.} \label{fig:phi}
+\end{figure}
+
+
+
+\subsection{Nuclear DVCS}
+~~~~Nuclear targets provide access to the measurement of two DVCS channels: the 
+coherent and the incoherent. In the coherent channel, the target nucleus 
+remains intact and recoils as a whole while emitting a real photon ($eA 
+\rightarrow e' A' \gamma$). This process allows to measure the nuclear GPDs of 
+the target, which contain information on the partons correlations and the 
+nuclear forces in the target \cite{Polyakov:2002yz, Liuti:2005qj}. In the 
+incoherent channel, the nucleus breaks up and the DVCS takes place on a bound 
+nucleon that emits the final photon ($eA \rightarrow e' N' \gamma$ X). The 
+latter allows to measure the GPDs of the bound nucleons and study the medium 
+modifications of the nucleons in the nuclear medium. Figure 
+\ref{fig:nuclear_DVCS} shows the diagrams of the two DVCS channels.
+\begin{figure}[tbp]
+\centering
+\includegraphics[scale=0.3]{fig_NuclGPD/nuclear_DVCS.png}
+\caption{ The leading twist handbag diagrams of the two DVCS channels from a 
+nuclear target, coherent channel (on the left) and incoherent channel (on the 
+right). } \label{fig:nuclear_DVCS}
+\end{figure}
+
+The GPDs depend on three variables: $x$, $\xi$ and $t$. $x+\xi$ is the 
+nucleon's longitudinal momentum fraction carried by the struck quark, 2$\xi$ is 
+the longitudinal momentum fraction of the momentum transfer $\Delta$ ($= p' - 
+p$), and $t$ (=$\Delta^{2}$) is the squared momentum transfer between the 
+initial and the final states of the hadron target. Experimentally, only $\xi$ 
+and $t$ are measurable in the DVCS reaction. At twist-2 order, $\xi$ can be 
+calculated as $x_B/(2-x_B)$, where $x_B$ is the Bjorken variable $(= 
+Q^{2}/(2M_{N}(E-E')$ with $Q^2$ is the vertuality of the exchanged photon, 
+$M_{N}$ is the mass of the nucleon and $E(E')$ is the energy of the incident 
+(scattered) electron.
+
+The number of GPDs needed to parametrize the partonic structure of a nucleus 
+depends on the different configurations between the spin of the nucleus and the 
+helicity direction of the struck quark.  In principle, for a target of spin 
+$s$, the number of the chiral-even GPDs is equal to ($2s+1$)$^2$ for each quark 
+flavor. The DVCS off spinless nuclear targets, such as $^4He$, $^{12}C$ and 
+$^{16}O$, is simpler to study as only one GPD ($H_{A}(x,\xi,t)$) arises at 
+leading twist to parametrize their partonic structure.
+
+Nuclear DVCS provides a quantitative information on the nuclear medium effects, 
+the quark confinement size of the bound nucleons, see figure 
+\ref{fig:quarks_nucleus}. The Fourier transform of the nucleon GPDs over the 
+momentum transfer $\Delta$ gives the transverse separation ($b'$) between 
+quarks in the nucleon, while the transform of the nuclear GPD 
+($H_{A}(x,\xi,t)$) gives the transverse separation ($b$) between the quarks in 
+the nucleus. Knowing these two separations, one can access the transverse 
+separation ($\beta = b - b'$) between the nucleons in a nucleus 
+\cite{Liuti:2005qj}.
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[scale=0.6]{fig_NuclGPD/quarks_nucleus.png}
+\vspace{-0.7in}
+\caption{The spatial coordinates of quarks in a nucleus. See main text for 
+definition of the variables.}
+\label{fig:quarks_nucleus}
+\end{figure}
+
+The $^4$He nucleus shows a clear EMC effect. This nucleus is characterized by 
+its spin-zero, a high density and it is a well-known few-body system. These 
+aspects make the $^4$He nucleus an ideal target to be considered for the 
+understanding of the nuclear effects at the partonic level. 
+  
+The $^4$He GPD $H_{A}(x,\xi,t)$ is characterized by:
+\begin{itemize}
+ \item The universality of $H_{A}$: the $H_{A}$ describes the partonic 
+ structure of the $^4$He in a DVCS reaction the same way as in a DVMP reaction.  
+ \item In the forward limit ($t\rightarrow 0$), $H_{A}$ is reduced to the usual 
+    PDF of $^4$He that is accessible via DIS.
+ \item $H_{A}$ can be decomposed into a polynomial in $\xi$.
+ \item The first moment of $H_{A}$ is the $^4$He elastic electromagnetic form 
+    factor $F_{A}(t)$, such as:
+ \begin{equation}
+   \sum_{q} \int_{-1}^{1} dx ~H_{A}^{q}(x, \xi, t) =  F_{A}(t),
+\end{equation}
+  where the sum runs over all the quark flavors.
+  \item The second moment of $H_{A}^{q}(x, \xi, t)$ reads
+  \begin{equation}
+ \int_{-1}^{1} dx ~x H_{A}^{q}(x, \xi, t) = M ^{q/A}_{2}(t) + \frac{4}{5} 
+ \xi^{2} d^{q/A}_{2}(t)
+  \end{equation}
+   where the first term of the right-hand side represents the momentum fraction 
+carried by each quark flavor q, and the second term is encoding information 
+about the forces experienced by partons inside the nuclei 
+\cite{Polyakov:2002yz}.  \item $H_{A}$ is not directly measured from 
+experiment, but we measure its corresponding Compton form factor 
+$\mathcal{H}_{A}$.  \end{itemize}  
+
+%~~~~The $^4$He DVCS amplitude can be expressed as \cite{Kirchner:2003wt}:
+% \begin{equation}
+%\mathcal{T}_{DVCS} \propto \sum_{q} e^{2}_{q} \mathcal{P} \int_{-1}^{1} dx 
+%\left(\frac{1}{x-\xi} + \frac{1}{x+\xi} \right) H^{q}_{A}(x,\xi,t) \\- i\pi 
+%\sum_{q} \left( e^{2}_{q} \left[ H^{q}_{A}(\xi,\xi,t) - H^{q}_{A}(-\xi,\xi,t) 
+%\right] \right),
+%\end{equation} where the first term on the right-hand side stands for the real 
+%part of the CFF $\mathcal{H}_{A}$, while the second term for the imaginary 
+%part of $\mathcal{H}_{A}$. 
+
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[scale=0.26]{fig_NuclGPD/BH.png}
+\caption{Schematic for the Bethe-Heitler process. The final real photon can be  
+emitted from the incoming electron (left plot) or from the scattered electron 
+(right plot).} 
+\label{BH}
+\end{figure}
+
+\begin{figure}[tp]
+\begin{minipage}[c]{.46\linewidth}
+\hspace{-0.2in}\includegraphics[height=6.0cm]{fig_NuclGPD/He-4_FF.png}
+\caption{$^4$He charge form factor measurements at Stanford, SLAC, Orsay, Mainz 
+and JLab Hall A compared with theoretical calculations. The figure is from 
+\cite{PhysRevLett.112.132503}. }
+\label{fig:He-4_FFs}
+\end{minipage} \hfill
+\begin{minipage}[c]{.46\linewidth}
+\hspace{-0.3in}\includegraphics[height=6.1cm]{fig_NuclGPD/BH_He-4.png}
+\caption{The calculated BH cross section as a function of $\phi$ on a $^4He$ 
+target at three values of $x_{B}$ and fixed values of $Q^{2}$ and $t$.  
+($t$~=~-~0.1~GeV$^2$/c$^2$ corresponds to $Q^2$~$\approx$~2.57~fm$^{-2}$ on 
+figure \ref{fig:He-4_FFs}).}
+\vspace{+0.3in}
+\label{fig:BH_cross_section_4He}
+\end{minipage}
+\end{figure}
+
+
+
+
+Experimentally, the DVCS reaction is indistinguishable from the Bethe-Heitler 
+(BH) process, which is the reaction where the final photon is emitted either 
+from the incoming or the outgoing leptons, as shown in figure \ref{BH}. The BH 
+process is not sensitive to GPDs and does not carry information about the 
+partonic structure of the hadronic target. The BH cross section is calculable 
+from the well-known electromagnetic FFs. The DVCS amplitude is enhanced through 
+the interference with the BH process, that is calculable from the well-known 
+elastic FF. Figure \ref{fig:He-4_FFs} shows the world measurements of the 
+$^4$He $F_{A}(t)$ along with theoretical calculations. Following the $F_{A}(t)$ 
+parametrization by R.  Frosch and his collaborators \cite{PhysRev.160.874} 
+(valid at the small values of $-t$ which are of interest in this work), figure 
+\ref{fig:BH_cross_section_4He} shows the calculated BH as a function of the 
+azimuthal angle between the leptonic and the hadronic planes ($\phi$), using a 
+6~GeV electron beam on a $^4$He target.\\
+
+At leading twist, the differential cross section for a longitudinally-polarized 
+electron beam ($\lambda$) and an unpolarized $^4$He target can be decomposed 
+into BH, DVCS, and interference terms as:
+\small
+\begin{equation}
+\frac{d^{5}\sigma_{\lambda}}{dx_{A} dQ^{2} dt d\phi_{e} d\phi} = 
+\frac{\alpha^{3}}{16 \pi^{2}} \frac{x_{A} \, y^{2}}{Q^{4} \sqrt{1 + \epsilon ^{2}}} 
+\frac{
+|\mathcal{T}_{BH}|^{2} + |{\mathcal{T}}_{DVCS}^{\lambda}|^{2} + 
+{\mathcal{I}}_{BH*DVCS}^{\lambda}}{e^{6}}
+\label{eq:sigdiff}
+\end{equation}
+\normalsize
+where $y = \frac{p \cdot q}{p \cdot k}$, $\epsilon  =  \frac{2 x_{A} M_{A}}{Q}$ 
+and $x_A  =  \frac{Q^2}{2 p \cdot q}$, and $M_{A}$ being the mass of the 
+$^4$He.
+
+The nuclear BH, DVCS and interference scattering amplitudes can be decomposed 
+into a finite series of Fourier harmonics as expressed in  equations 
+\ref{TTBH}, \ref{TTDVCS} and \ref{TTinter}.\\
+The different amplitudes are written as \cite{Belitsky:2008bz}:
+\small
+\begin{equation}
+ |\mathcal{T}_{BH}|^{2} =  \frac{e^{6} (1 + \epsilon^{2})^{-2}}{x^{2}_{A} y^{2} 
+ t \mathcal{P}_{1}(\phi) \mathcal{P}_{2}(\phi)} \left[ c_{0}^{BH} + c_{1}^{BH} 
+ \cos(\phi) + c_{2}^{BH} \cos(2\phi)\right] \label{TTBH}
+\end{equation}
+
+\begin{equation}
+ |\mathcal{T}_{DVCS}|^{2} =  \frac{e^{6}}{y^{2} Q^{2}} \left[ c_{0}^{DVCS} + 
+ \sum_{n=1}^{2} \Bigg( c_{n}^{DVCS} \cos(n \phi) + \lambda s_{n}^{DVCS} \sin(n 
+ \phi)\Bigg) \right] \label{TTDVCS}
+\end{equation}
+
+\begin{equation}
+ \mathcal{I}_{BH*DVCS} =  \frac{\pm e^{6}}{x_A y^{3} t \, \mathcal{P}_{1}(\phi) 
+ \mathcal{P}_{2}(\phi)} \left[ c_{0}^{I} + \sum_{n=0}^{3} \Bigg( c_{n}^{I} 
+ \cos(n \phi) + \lambda s_{n}^{I} \sin(n \phi) \Bigg) \right] \label{TTinter} 
+ \end{equation}
+The explicit expressions of the coefficients can be found in Appendix 
+\ref{app:Helium_cross_section}.\\
+
+
+~~~~It is convenient to use the beam-spin asymmetry as DVCS observable because 
+most of the experimental normalization and acceptance issues cancel out in an 
+asymmetry ratio. The beam-spin asymmetry is measured using a polarized lepton 
+beam on an unpolarized target (U). JLab provides a longitudinally (L) polarized 
+electron beam, $P_{B}~\approx$~85~$\%$. It is defined as:
+  \begin{equation}
+  A_{LU} = \frac{d^{5}\sigma^{+} - d^{5}\sigma^{-} }
+                {d^{5}\sigma^{+} + d^{5}\sigma^{-}}.
+    \label{BSA_equation}
+  \end{equation}
+ where $d^{5}\sigma^{+}$($d^{5}\sigma^{-}$) is the DVCS differential cross 
+ section for a positive (negative) beam helicity.\\
+
+ At leading twist, the beam-spin asymmetry ($A_{LU}$) with the  two opposite 
+ helicities of a  longitudinally-polarized electron beam (L) on a spin-zero 
+ target (U) can be written as:        \begin{eqnarray}
+A_{LU}& =& \frac{x_A(1+\epsilon^2)^2}{y} \, s_1^{INT} \sin(\phi) \, 
+\bigg/ \, \bigg[ \, \sum_{n=0}^{n=2}c_n^{BH}\cos{(n\phi)} +  \\
+& & \frac{x_A^2 t {(1+\epsilon^2)}^2}{Q^2} P_1(\phi) P_2(\phi) \, c_0^{DVCS} + 
+\frac{x_A (1+\epsilon^2)^2}{y} \sum_{n=0}^{n=1} c_n^{INT} \cos{(n\phi)} \bigg].  \nonumber 
+\label{eq:coh_BSA}
+\end{eqnarray}
+
+where $\mathcal{P}_1(\phi)$ and $\mathcal {P}_2(\phi)$ are the Bethe-Heitler 
+propagators. The factors: $c_{0,1,2}^{BH}$, $c_0^{DVCS}$, $c_{0,1}^{INT}$ and 
+$s_1^{INT}$ are the Fourier coefficients of the BH, the DVCS and the 
+interference amplitudes for a spin-zero target \cite{Kirchner:2003wt}.
+
+~~~~The beam-spin asymmetry ($A_{LU}$) can be rearranged as
+\begin{equation}
+A_{LU}(\phi) = \frac{\alpha_{0}(\phi) \, \Im m(\mathcal{H}_{A})}
+{\alpha_{1}(\phi) + \alpha_{2}(\phi) \, \Re e(\mathcal{H}_{A}) + \alpha_{3}(\phi) \, 
+\big( 
+\Re e(\mathcal{H}_{A})^{2} + \Im m(\mathcal{H}_{A})^{2} \big)}
+\label{eq:A_LU-coh}
+\end{equation}
+where $\Im m(\mathcal{H}_{A})$ and $\Re e(\mathcal{H}_{A})$ are the imaginary 
+and real parts of the CFF $\mathcal{H}_{A}$ associated to the GPD $H_A$. The 
+$\alpha_{i}$'s are $\phi$-dependent kinematical factors that depend on the 
+nuclear form factor $F_A$ and the independent variables $Q^2$, $x_{B}$ and $t$.  
+These factors are simplified as:
+
+\small
+\begin{eqnarray}
+   \alpha_0 (\phi) & = &\frac{x_{A}(1+\epsilon^2)^2}{y} S{++}(1) \sin(\phi)\\
+    \alpha_1 (\phi) & = & c_0^{BH}+c_1^{BH} \cos({\phi})+c_2^{BH} \cos(2\phi)\\ 
+   \alpha_2 (\phi) & = & \frac{x_{A}(1+\epsilon^2)^2}{y}  \left( C_{++}(0) +  
+C_{++}(1) cos(\phi) \right)\\
+\alpha_3 (\phi) &=& \frac{x^{2}_{A}t(1+\epsilon^2)^2}{y} {\mathcal P}_1(\phi) 
+{\mathcal P}_2(\phi) \cdot 2 \frac{2-2y+y^2 + \frac{\epsilon^2}{2}y^2}{1 + 
+\epsilon^2}
+\end{eqnarray}
+\normalsize
+
+Where $S{++}(1)$, $C_{++}(0)$, and $C_{++}(1)$ are the Fourier harmonics in the 
+leptonic tensor. Their explicit expressions can be found in Appendix 
+\ref{app:Helium_cross_section}. 
+
+Using the $\alpha_{i}$ factors, one can obtain in a model-independent way $\Im
+m(\mathcal{H}_{A})$ and $\Re e(\mathcal{H}_{A})$ from fitting the experimental 
+$A_{LU}$ as a function of $\phi$ for given values of $Q^2$, $x_B$ and $t$.  
+
+
+
+\subsection{Meson Production}
+
+Should include $\pi^0$ and $\phi$.
+
+\section{Past Experiments}
+To be written
+

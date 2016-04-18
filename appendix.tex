@@ -1,0 +1,101 @@
+\appendix
+\chead[]{\let\uppercase\relax\leftmark}
+
+%\chapter{Appendix}
+\chapter{$e ~^4He \rightarrow e ~^4He ~\gamma$ cross section} \label{app:Helium_cross_section}
+The definition of the variable that appear in equations \ref{eq:sigdiff} to 
+\label{TTinter}:
+
+ $\mathcal{P}_{1}(\phi)$ and $\mathcal{P}_{2}(\phi)$ are BH propagators and 
+ defined as:
+\small
+\begin{align}
+&\mathcal{P}_{1}(\phi) = \frac{(k - q')^{2}}{Q^{2}} = - \frac{1}{y (1 + \epsilon^{2})} 
+\big[ J + 2 K \cos(\phi) \big] \\
+&\mathcal{P}_{2}(\phi) = \frac{(k - \Delta)^{2}}{Q^{2}} = 1 + \frac{t}{Q^{2}} + 
+\frac{1}{y (1 + \epsilon^{2})} \big[ J + 2 K \cos(\phi) \big]
+\end{align}
+~~~~~~~~~~~with,
+\begin{align}
+& J = \bigg( 1 - y - \frac{y \epsilon^{2}}{2} \bigg) \bigg(1 + \frac{t}{Q^{2}} \bigg) - 
+(1 - x_{A})(2 - y) \frac{t}{Q^{2}} \\
+& K^{2} = - \delta t \, (1 - x_{A}) \bigg( 1 - y - \frac{y^{2} \epsilon^{2}}{4} \bigg) 
+\bigg\{ \sqrt{1 + \epsilon^{2}} + \frac{4 x_{A} (1-x_{A}) + \epsilon^{2}}{4 (1 - x_{A})}
+\delta t \bigg\} \\
+& \delta t = \frac{t - t_{min}}{Q^{2}} = \frac{t}{Q^{2}} + \frac{2(1-x_{A}) \left(1- \sqrt{1 + 
+\epsilon^{2}} \right) + \epsilon^{2}}{4 x_{A} (1- x_{A}) + \epsilon^{2}}
+\end{align}
+\normalsize
+where $t_{min}$ represents the kinematic boundary of the process and defined as:
+\small
+\begin{equation}
+t_{min} = Q^2 \frac{2(1-x_A)(1 - \sqrt{1+\epsilon^2}) + \epsilon^2}{4 x_A(1-x_A) + \epsilon^2}
+\end{equation}
+\normalsize
+The Fourier coefficients, in equations \ref{TTBH}, \ref{TTDVCS} and \ref{TTinter}, of a spin-0 target are defined as:
+\small
+\begin{eqnarray}
+c_0^{BH} = & \bigg[ & \left\{ {(2-y)}^2 + y^2{(1+\epsilon^2)}^2 \right\} 
+\left\{ \frac{\epsilon^2 Q^2}{t} + 4 (1-x_A) + (4x_A+\epsilon^2) \frac{t}{Q^2} 
+\right\} \nonumber \\
+& \phantom{\bigg[} & + 2 \epsilon^2 \left\{ 4(1-y)(3+2\epsilon^2) + y^2(2-\epsilon^4) 
+\right\} - 4 x_A^2{(2-y)}^2 (2+\epsilon^2) \frac{t}{Q^2} \nonumber \\
+& \phantom{\bigg[} & + 8 K^2 \frac{\epsilon^2 Q^2}{t} \,\,\,\,\,\,\, \bigg] F_A^2(t)  \\
+c_1^{BH} = & \phantom{\bigg[} & -8 (2-y) K \left\{ 2 x_A + \epsilon^2 - 
+\frac{\epsilon^2 Q^2}{t} \right\} F_A^2(t)  \\
+c_2^{BH} = & \phantom{\bigg[} & 8 K^2 \frac{\epsilon^2 Q^2}{t} F_A^2(t) 
+\end{eqnarray} 
+\normalsize
+where $F_A(t)$ is the electromagnetic form factor of the $^4$He. At leading twist, the $|\mathcal{T}_{DVCS}|^{2}$ writes as a function of only one CFF according to
+\small
+\begin{equation}
+   c_0^{DVCS}= 2 \frac{2-2y+y^2 + \frac{\epsilon^2}{2}y^2}{1 + \epsilon^2} \, 
+   {\mathcal H}_A {\mathcal H}^{\star}_A \label{eq:c0DVCS}
+\end{equation}
+\normalsize
+and the interference amplitude coefficients are written as:
+\small
+\begin{equation}
+s_{1}^{INT} = F_{A}(t) \Im m(\mathcal{H}_{A}) S_{++}(1),
+\end{equation}
+with
+\begin{eqnarray}
+   S_{++}(1) &=& \frac{-8K(2-y)y}{1+\epsilon^2} \left( 1 + 
+\frac{1-xA+\frac{\sqrt{1+\epsilon^2}-1}{2}}{1+\epsilon^2} 
+\frac{t-t_{min}}{Q^{2}} \right) \cdot F_{A}(t) \label{eq:s1I}
+\end{eqnarray}
+
+\begin{eqnarray}
+\small
+c_0^{INT} &=& F_A(t) \Re e(\mathcal{H}_{A}) C_{++}(0),
+\end{eqnarray}
+with \begin{eqnarray}  C_{++}(0) &=&
+\frac{-4(2-y)(1+\sqrt{1+\epsilon^{2}})}{(1+\epsilon^{2})^2}  \bigg\{ 
+   \frac{\widetilde{K}^2}{Q^2}  \frac{(2-y)^2}{\sqrt{1+\epsilon^{2}}} \, \\
+   &+& \frac{t}{Q^2}  \left( 1 - y - \frac{\epsilon^2}{4} y^2 \right)  
+(2-x_{A}) \left(  1 + \frac{2x_A(2-x_A + \frac{\sqrt{1+\epsilon^{2}}-1}{2} + 
+\frac{\epsilon^{2}}{2x_A})\frac{t}{Q^2} + \epsilon^{2}}{(2-x_A) 
+(1+\sqrt{1+\epsilon^{2}})}  \right)  \bigg\} \nonumber
+ \label{eq:c0I} 
+ \end{eqnarray}
+
+\begin{eqnarray}
+   c_1^{INT} &=&  F_A(t) \Re e(\mathcal{H}_{A}) C_{++}(1),
+\end{eqnarray}
+with  
+   
+   \begin{eqnarray}
+   C_{++}(1) &=&
+   \frac{-16K(1-y+\frac{\epsilon^{2}}{4}y^2)}{(1+\epsilon^{2})^{5/2}}\bigg\{\left(1+(1-x_A)\frac{\sqrt{1+\epsilon^{2}}-1}{2x_A} 
+   + \frac{\epsilon^{2}}{4x_A}\right) 
+\frac{x_At}{Q^2}-\frac{3\epsilon^{2}}{4.0} \bigg\} \nonumber \\&-& 4K \left( 
+2-2y+y^2+\frac{\epsilon^{2}}{2}y^2\right)\frac{1+\sqrt{1+\epsilon^{2}}-\epsilon^{2}}{(1+e2)^{5/2}}\bigg\{1-(1-3x_A)\frac{t}{Q^2}\nonumber\\&\,\,\,\,&\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,+\frac{1-\sqrt{1+\epsilon^{2}}+3\epsilon^{2}}{1+\sqrt{1+\epsilon^{2}}-\epsilon^{2}} 
+\frac{x_A*t}{Q^2}\bigg\} \label{eq:c1I}
+\end{eqnarray}
+
+
+\normalsize
+
+
+
+
